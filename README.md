@@ -1,2 +1,2 @@
 # Veges
-This is capstone Project
+This is a capstone Project
