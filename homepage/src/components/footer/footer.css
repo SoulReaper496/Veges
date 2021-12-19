@@ -1,0 +1,30 @@
+.footer-container {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  top: 625px;
+  display: flex;
+  background: rgb(176, 191, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 153, 121, 1) 0%,
+    rgba(100, 153, 120, 1) 51%,
+    rgba(102, 153, 121, 1) 100%
+  );
+}
+
+.col {
+  flex: 1;
+  align-items: center;
+}
+p {
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+}
+h6 {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}

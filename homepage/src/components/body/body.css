@@ -1,0 +1,115 @@
+.body-container {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.slider-container {
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  border: solid #857272 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.carousel {
+  background-color: rgba(169, 239, 241, 0.87);
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+h3 {
+  color: rgb(8, 8, 8);
+  font-size: 30px;
+  font-weight: 620;
+}
+
+.w-80 {
+  height: 250px;
+  width: 60vw;
+}
+
+#caption-container {
+  position: absolute;
+  width: 250px;
+  border-radius: 50px;
+  right: 0;
+}
+
+@media screen and (min-width: 800px) {
+  #caption-container {
+    margin-right: 90px;
+    opacity: 0.8;
+  }
+}
+@media screen and (max-width: 800px) {
+  #caption-container {
+    margin: auto;
+    right: 0;
+    left: 0;
+  }
+  .w-80 {
+    margin: auto;
+    width: 100%;
+  }
+}
+
+.fv-container {
+  position: absolute;
+  top: 260px;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  background: #f8f8f8;
+  border: solid #bdbdbd 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.fv-container > div {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  flex: 1;
+  margin: 0px 20px;
+  justify-content: center;
+  background: rgb(176, 191, 182);
+  border: solid #bdbdbd 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.fv-container > div > img {
+  width: 90%;
+  height: 60%;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+h2 {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .fv-container > div {
+    width: 250px;
+    height: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}

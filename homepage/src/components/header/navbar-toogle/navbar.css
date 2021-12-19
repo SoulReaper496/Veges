@@ -1,0 +1,40 @@
+@media screen and (min-width: 700px) {
+  #btn {
+    display: none;
+  }
+}
+#btn {
+  background-color: #669979;
+}
+#nav-body {
+  background: rgb(176, 191, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(176, 191, 182, 1) 0%,
+    rgba(100, 153, 120, 1) 51%,
+    rgba(102, 153, 121, 1) 100%
+  );
+}
+#nav-header {
+  background-color: rgba(102, 153, 121, 1);
+}
+
+#image-logo {
+  width: 55px;
+  height: 53px;
+  left: 0;
+  border-radius: 5px;
+}
+
+.nav-links {
+  position: relative;
+  border-bottom: 1px solid rgba(102, 153, 121, 1);
+  left: 5px;
+  top: 0px;
+  color: black;
+}
+
+.nav-links:hover {
+  background-color: rgba(102, 153, 121, 1);
+  color: orange;
+}
