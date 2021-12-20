@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import "./homepage.css";
 const Homepage = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
       <Body />
       <Footer />

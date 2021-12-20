@@ -1,27 +1,29 @@
 .body-container {
-  position: absolute;
+  position: relative;
   text-align: center;
   align-items: center;
-  top: 70px;
+  top: 10px;
   left: 0;
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 .slider-container {
+  position: relative;
   width: 100%;
-  height: 250px;
+  height: 350px;
   align-items: center;
   display: flex;
   flex-direction: row;
-
   border: solid #857272 0;
+  background: #f8f8f8;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .carousel {
-  background-color: rgba(169, 239, 241, 0.87);
+  background-color: rgba(226, 242, 243, 0.63);
   display: flex;
   position: absolute;
   width: 100%;
@@ -35,8 +37,8 @@ h3 {
 }
 
 .w-80 {
-  height: 250px;
-  width: 60vw;
+  height: 350px;
+  /* width: 60vw; */
 }
 
 #caption-container {
@@ -44,12 +46,21 @@ h3 {
   width: 250px;
   border-radius: 50px;
   right: 0;
+  bottom: 60px;
 }
 
 @media screen and (min-width: 800px) {
   #caption-container {
     margin-right: 90px;
     opacity: 0.8;
+    width: 40%;
+    bottom: 100px;
+    right: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+  .w-80 {
+    width: 600px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -65,11 +76,14 @@ h3 {
 }
 
 .fv-container {
-  position: absolute;
-  top: 260px;
+  position: relative;
+  top: 10px;
+
   width: 100%;
-  height: 280px;
+  height: 350px;
   display: flex;
+  margin: auto;
+  justify-content: space-between;
   align-items: center;
   background: #f8f8f8;
   border: solid #bdbdbd 0;
@@ -78,14 +92,13 @@ h3 {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 .fv-container > div {
-  border: 1px solid black;
+  position: relative;
   border-radius: 10px;
-  margin: auto;
+  margin: 30px;
   width: 250px;
-  height: 250px;
+  height: 220px;
   align-items: center;
   flex: 1;
-  margin: 0px 20px;
   justify-content: center;
   background: rgb(176, 191, 182);
   border: solid #bdbdbd 0;
@@ -95,7 +108,7 @@ h3 {
 }
 .fv-container > div > img {
   width: 90%;
-  height: 60%;
+  height: 50%;
   margin-top: 20px;
   cursor: pointer;
   border-radius: 10px;
@@ -107,9 +120,16 @@ h2 {
 
 @media screen and (min-width: 1200px) {
   .fv-container > div {
-    width: 250px;
-    height: 250px;
+    top: 10px;
+    width: 100px;
+    height: 300px;
     margin-left: 100px;
     margin-right: 100px;
+  }
+  .fv-container {
+    height: 400px;
+  }
+  .fv-container > div > img {
+    height: 200px;
   }
 }

@@ -1,8 +1,8 @@
 .footer-container {
-  position: absolute;
+  position: relative;
   left: 0;
-  width: 100vw;
-  top: 625px;
+  width: 100%;
+  top: 30px;
   display: flex;
   background: rgb(176, 191, 182);
   background: linear-gradient(
@@ -11,6 +11,10 @@
     rgba(100, 153, 120, 1) 51%,
     rgba(102, 153, 121, 1) 100%
   );
+  border: solid #857272 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .col {
